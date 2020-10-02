@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+@import url("https://fonts.googleapis.com/css?family=Helvetica|Reenie+Beanie");
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -7,22 +7,26 @@
   max-width: 700px;
   position: relative;
 }
+
+/* Timeline Entry Year */
 .timeline__content-title {
-  font-weight: normal;
   font-size: 66px;
   margin: -10px 0 0 0;
   transition: .4s;
   padding: 0 10px;
   box-sizing: border-box;
   font-family: "Reenie Beanie", sans-serif;
-  color: #fff;
+  font-weight: bold;
+  color: #fe3636;
 }
+
+/* Timeline Entry Description */
 .timeline__content-desc {
   margin: 0;
   font-size: 15px;
   box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: "Reenie Beanie";
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Helvetica";
   font-weight: normal;
   line-height: 25px;
 }
@@ -136,16 +140,19 @@
   margin-bottom: 80px;
   position: relative;
 }
+
+/* Timeline title */
 .timeline-header__title {
-  color: #fff;
+  /*color: #65A03C; /* Gross greeen (which I love, but is pretty hard to read */
+  color: #e0e2db;
   font-size: 46px;
-  font-family: Cardo;
-  font-weight: normal;
+  font-family: "Reenie Beanie";
+  font-weight: bold;
   margin: 0;
 }
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
-  font-family: "Pathway Gothic One", sans-serif;
+  font-family: "Reenie Beanie", sans-serif;
   font-size: 16px;
   letter-spacing: 5px;
   margin: 10px 0 0 0;
@@ -159,5 +166,5 @@
 .demo-footer a {
   color: #999;
   display: inline-block;
-  font-family: Cardo;
+  font-family: Helvetica;
 }
