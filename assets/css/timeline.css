@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -14,7 +14,7 @@
   transition: .4s;
   padding: 0 10px;
   box-sizing: border-box;
-  font-family: "Pathway Gothic One", sans-serif;
+  font-family: "Reenie Beanie", sans-serif;
   color: #fff;
 }
 .timeline__content-desc {
@@ -22,7 +22,7 @@
   font-size: 15px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.7);
-  font-family: Cardo;
+  font-family: "Reenie Beanie";
   font-weight: normal;
   line-height: 25px;
 }

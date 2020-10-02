@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
 // Responsive
 @mixin responsive() {
   @media only screen and (max-width: 767px) {
@@ -6,8 +6,8 @@
   }
 }
 
-$content-font: Cardo;
-$heading-font: 'Pathway Gothic One',
+$content-font: 'Reenie Beanie';
+$heading-font: 'Reenie Beanie',
 sans-serif;
 $timeline-width:700px;
 $timeline-container-width:100%;
