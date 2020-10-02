@@ -17,7 +17,7 @@
   box-sizing: border-box;
   font-family: "Reenie Beanie", sans-serif;
   font-weight: bold;
-  color: #fe3636;
+  color: #8b0000;
 }
 
 /* Timeline Entry Description */
@@ -28,7 +28,7 @@
   color: rgba(255, 255, 255, 0.9);
   font-family: "Helvetica";
   font-weight: normal;
-  line-height: 25px;
+  line-height: 28px;
 }
 .timeline:before {
   position: absolute;
@@ -55,14 +55,16 @@
   position: relative;
   transform: translateY(-80px);
 }
+
+/* Timeline Entry Title */
 .timeline-item:before {
   content: attr(data-text);
   letter-spacing: 3px;
   width: 100%;
   position: absolute;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
-  font-family: "Pathway Gothic One", sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 28px;
+  font-family: "Reenie Beanie", sans-serif;
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   top: 70%;
   margin-top: -5px;
@@ -115,7 +117,7 @@
 }
 .timeline__img {
   max-width: 100%;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
 }
 .timeline-container {
   width: 100%;
@@ -144,7 +146,7 @@
 /* Timeline title */
 .timeline-header__title {
   /*color: #65A03C; /* Gross greeen (which I love, but is pretty hard to read */
-  color: #e0e2db;
+  color: #8b0000;
   font-size: 46px;
   font-family: "Reenie Beanie";
   font-weight: bold;
