@@ -9,9 +9,9 @@
 // Tart Orange (Coolors.co name)
 //$primary: {{ site.data.style.highlight | default: "#fe3636" }} !default;
 // Lighter for Accessibility across other shades of grey
-$primary: {{ site.data.style.highlight | default: "#8b0000" }} !default;
+$primary: {{ site.data.style.highlight | default: "#65A03C" }} !default;
 // Green RYB (Coolors.co name)
-$secondary: {{ site.data.style.highlight | default: "#65A03C" }} !default;
+$secondary: {{ site.data.style.highlight | default: "#8b0000" }} !default;
 $white: {{ site.data.style.white | default: "#65A03C" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 

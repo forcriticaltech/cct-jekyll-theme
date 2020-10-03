@@ -16,7 +16,7 @@ theme: jekyll-agency
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : THE ZOMBIE APOCALYPSE
+title      : The Zombie Apocalypse
 email      : CoalitionForCriticalTechnology@gmail.com
 description: "Physiognomy just keeps comin' back!"
 author     : The Coalition for Critical Technology
