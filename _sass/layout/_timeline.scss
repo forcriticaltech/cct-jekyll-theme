@@ -28,6 +28,7 @@ $timeline-container-width:100%;
       box-sizing: border-box;
       font-family: $heading-font;
       color: #fff;
+      -webkit-text-stroke: 1px black;
     }
     &-desc {
       margin: 0;
@@ -144,6 +145,7 @@ $timeline-container-width:100%;
     text-align: center;
     margin-bottom: 80px;
     position: relative;
+    -webkit-text-stroke: 1px black;
     &__title {
       color: #fff;
       font-size: 46px;
