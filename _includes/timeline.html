@@ -5,6 +5,7 @@
   <title>Biometrics Timeline</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="../assets/css/timeline.css">
+<link rel="stylesheet" href="../assets/css/tabs.css">
 </head>
 <body>
 <a name="intro"></a>
@@ -26,6 +27,34 @@ These zombie ideas are deadly. They are at the core of our violent racist, capit
     <h2 class="timeline-header__title">The Undead Horde of Biometrics</h2>
     <!-- <h3 class="timeline-header__subtitle">FATHER OF THE TURKS</h3> -->
   </div>
+  <div class="tabs">
+  <div role="tablist" aria-label="Timeline">
+    <button role="tab"
+            aria-selected="true"
+            aria-controls="nils-tab"
+            id="all">
+      Full Timeline
+    </button>
+    <button role="tab"
+            aria-selected="false"
+            aria-controls="phrenology-tab"
+            id="phrenology"
+            tabindex="-1">
+      Phrenology
+    </button>
+    <button role="tab"
+            aria-selected="false"
+            aria-controls="eugenics-tab"
+            id="eugenics"
+            tabindex="-1"
+            data-deletable="">
+      Eugenics
+    </button>
+  </div>
+  <div tabindex="0"
+       role="tabpanel"
+       id="nils-tab"
+       aria-labelledby="nils">
   <div class="timeline">
     <!-- New Entry -->
     <div class="timeline-item" data-text="Invention of five kinds of humans">
@@ -76,10 +105,35 @@ These zombie ideas are deadly. They are at the core of our violent racist, capit
       </div>
     </div>
   </div>
+  </div>
+
+  <div tabindex="0"
+       role="tabpanel"
+       id="phrenology-tab"
+       aria-labelledby="phrenology"
+       hidden="">
+    <p>
+      Phrenology
+    </p>
+  </div>
+
+  <div tabindex="0"
+       role="tabpanel"
+       id="eugenics-tab"
+       aria-labelledby="eugenics"
+       hidden="">
+    <p>
+      Eugenics.
+    </p>
+  </div>
+</div>
+
+  
 </div>
 <!-- Remove for now <div class="demo-footer"><a href="http://www.turkishnews.com/Ataturk/life.htm" target="_blank">Source/Kaynak</a></div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="../assets/js/timeline.js"></script>
+  <script  src="../assets/js/tabs.js"></script>
 
 </body>
 </html>
