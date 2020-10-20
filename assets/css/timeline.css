@@ -3,6 +3,60 @@
     font-family: Frightmare;
     src: url(../frightmare-font/FrightmareDemo-nRn44.otf);
 }
+.intro {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 700px;
+  position: relative;
+      background: rgb(66, 18, 88);
+
+    
+}
+
+.intro:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+}
+/* Intro Description */
+.intro__content-desc {
+  margin: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Helvetica";
+  font-weight: normal;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.intro-header {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  position: relative;
+}
+
+.intro-container {
+  background: rgb(66, 18, 88);
+}
+
+/* Intro title */
+.intro-header__title {
+  text-align: center;
+  color: #65A03C; /* Gross greeen (which I love, but is pretty hard to read */
+  /*color: #8b0000; */
+  font-size: 54px;
+  font-family: Frightmare;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
 .timeline {
   display: flex;
   margin: 0 auto;
