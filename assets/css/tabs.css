@@ -15,8 +15,9 @@
   border-radius: 0.2em 0.2em 0 0;
   box-shadow: 0 0 0.2em hsl(219, 1%, 72%);
   overflow: visible;
-  font-family: inherit;
-  font-size: inherit;
+  font-family: Frightmare, sans-serif;
+  font-size: 36px;
+  letter-spacing: 5px;
   background: hsl(220, 20%, 94%);
 }
 

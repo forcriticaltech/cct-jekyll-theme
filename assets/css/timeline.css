@@ -66,6 +66,11 @@
   position: relative;
 }
 
+.bkgd {
+  background: rgb(66, 18, 88);
+}
+
+
 /* Timeline Entry Year */
 .timeline__content-title {
   font-size: 66px;
