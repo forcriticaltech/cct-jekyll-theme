@@ -3,6 +3,12 @@
     font-family: Frightmare;
     src: url(../frightmare-font/FrightmareDemo-nRn44.otf);
 }
+@font-face{
+    font-family: Atkinson;
+    src: url(../Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514/Web_Fonts/WOFF/Atkinson-Hyperlegible-Regular-102.woff);
+
+}
+
 .intro {
   display: flex;
   margin: 0 auto;
@@ -28,7 +34,7 @@
   font-size: 20px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.9);
-  font-family: "Helvetica";
+  font-family: "Atkinson";
   font-weight: normal;
   line-height: 20px;
   letter-spacing: 1px;
@@ -90,7 +96,7 @@
   font-size: 16px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.9);
-  font-family: "Helvetica";
+  font-family: "Atkinson";
   font-weight: normal;
   line-height: 28px;
   letter-spacing: 1px;
@@ -234,5 +240,5 @@
 .demo-footer a {
   color: #999;
   display: inline-block;
-  font-family: Helvetica;
+  font-family: Atkinson;
 }
