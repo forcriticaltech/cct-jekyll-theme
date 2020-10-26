@@ -1,6 +1,4 @@
-# Testbench for web-based CCT projects
-## Projects
-### Zombie Apocalypse
+# Zombie Apocalypse
 This effort is meant to show the lineage of eugenics and carceral biometrics by way of a timeline, making an explicit analogy to an unkillable zombie horde.
 
 ![screenshot]()
