@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : The Zombie Apocalypse
 email      : CoalitionForCriticalTechnology@gmail.com
-description: "Physiognomy just keeps comin' back!"
+description: "Biometrics research is like a zombie that just won't die"
 author     : The Coalition for Critical Technology
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg

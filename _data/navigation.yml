@@ -1,6 +1,6 @@
 nav:
-  - title: "The Zombie Science Apocalypse"
+  - title: "Timeline"
     section: timeline
 
-  - title: "Zombies"
-    url: https://upload.wikimedia.org/wikipedia/en/7/75/The_Dead_Don't_Die.jpeg
+  - title: "What's a #BiometricsZombie?"
+    section: intro

@@ -1,11 +1,13 @@
 header:
     title: ""
-    text: Biometrics just won't die!
-    button: What's happening?
-    buttonlink: "#timeline"
+    text: Biometrics research is like a zombie that just won't die!
+    button: What's a Biometrics Zombie?
+    buttonlink: "#intro"
+    timelinebutton: Timeline
+    timelinebuttonlink: "#timeline"
 
 timeline:
-    title: "The Zombie Apocalypse" 
+    title: "The #BiometricsZombie Apocalypse" 
     text: ""
     section: timeline
       #- title: "Our Humble Beginnings"

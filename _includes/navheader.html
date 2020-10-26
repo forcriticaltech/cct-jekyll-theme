@@ -43,7 +43,11 @@
         <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
+       <div> <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a> </div>
+	  {%- endif -%}
+          <br>
+          {%- if site.data.sitetext.header.timelinebutton -%}
+        <div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.timelinebuttonlink }}">{{ site.data.sitetext.header.timelinebutton }}</a></div>
 	  {%- endif -%}
       </div>
     </div>

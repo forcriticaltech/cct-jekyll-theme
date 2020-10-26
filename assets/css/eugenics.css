@@ -3,67 +3,8 @@
     font-family: Frightmare;
     src: url(../frightmare-font/FrightmareDemo-nRn44.otf);
 }
-@font-face{
-    font-family: Atkinson;
-    src: url(../Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514/Web_Fonts/WOFF/Atkinson-Hyperlegible-Regular-102.woff);
 
-}
-
-.intro {
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  max-width: 700px;
-  position: relative;
-      background: rgb(66, 18, 88);
-
-    
-}
-
-.intro:before {
-  position: absolute;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-  margin-left: -1px;
-  content: "";
-}
-/* Intro Description */
-.intro__content-desc {
-  margin: 0;
-  font-size: 20px;
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.9);
-  font-family: "Atkinson";
-  font-weight: normal;
-  line-height: 20px;
-  letter-spacing: 1px;
-}
-
-.intro-header {
-  width: 80%;
-  margin: auto;
-  text-align: left;
-  position: relative;
-}
-
-.intro-container {
-  background: rgb(66, 18, 88);
-}
-
-/* Intro title */
-.intro-header__title {
-  text-align: center;
-  color: #8AC45F; /* Gross greeen (which I love, but is pretty hard to read */
-  /*color: #8b0000; */
-  font-size: 54px;
-  font-family: Frightmare;
-  font-weight: normal;
-  letter-spacing: 5px;
-  margin: 0;
-}
-
-.timeline {
+.eugenics {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -72,13 +13,9 @@
   position: relative;
 }
 
-.bkgd {
-  background: rgb(66, 18, 88);
-}
-
-
 /* Timeline Entry Year */
-.timeline__content-title {
+.eugenics__content-title {
+  -webkit-text-stroke: 1px black;
   font-size: 66px;
   margin: -10px 0 0 0;
   transition: .4s;
@@ -91,17 +28,17 @@
 }
 
 /* Timeline Entry Description */
-.timeline__content-desc {
+.eugenics__content-desc {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.9);
-  font-family: "Atkinson";
+  font-family: "Helvetica";
   font-weight: normal;
   line-height: 28px;
   letter-spacing: 1px;
 }
-.timeline:before {
+.eugenics:before {
   position: absolute;
   left: 50%;
   width: 2px;
@@ -111,11 +48,11 @@
   background: rgba(255, 255, 255, 0.07);
 }
 @media only screen and (max-width: 767px) {
-  .timeline:before {
+  .eugenics:before {
     left: 40px;
   }
 }
-.timeline-item {
+.eugenics-item {
   padding: 40px 0;
   opacity: .3;
   filter: blur(2px);
@@ -128,13 +65,13 @@
 }
 
 /* Timeline Entry Title */
-.timeline-item:before {
+.eugenics-item:before {
   content: attr(data-text);
   letter-spacing: 3px;
   width: 100%;
   position: absolute;
-  color: #8AC45F;
-  font-size: 32px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 28px;
   font-family: Frightmare, sans-serif;
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   top: 70%;
@@ -143,10 +80,10 @@
   opacity: 0;
   right: calc(-100% - 56px);
 }
-.timeline-item:nth-child(even) {
+.eugenics-item:nth-child(even) {
   align-self: flex-end;
 }
-.timeline-item:nth-child(even):before {
+.eugenics-item:nth-child(even):before {
   right: auto;
   text-align: right;
   left: calc(-100% - 56px);
@@ -155,26 +92,26 @@
   border-right: 2px solid rgba(255, 255, 255, 0.5);
   padding-right: 15px;
 }
-.timeline-item--active {
+.eugenics-item--active {
   opacity: 1;
   transform: translateY(0);
   filter: blur(0px);
 }
-.timeline-item--active:before {
+.eugenics-item--active:before {
   top: 50%;
   transition: .3s all .2s;
   opacity: 1;
 }
-.timeline-item--active .timeline__content-title {
+.eugenics-item--active .eugenics__content-title {
   margin: -50px 0 20px 0;
 }
 @media only screen and (max-width: 767px) {
-  .timeline-item {
+  .eugenics-item {
     align-self: baseline !important;
     width: 100%;
     padding: 0 30px 150px 80px;
   }
-  .timeline-item:before {
+  .eugenics-item:before {
     left: 10px !important;
     padding: 0 !important;
     top: 50px;
@@ -182,15 +119,15 @@
     width: 60px;
     border: none !important;
   }
-  .timeline-item:last-child {
+  .eugenics-item:last-child {
     padding-bottom: 40px;
   }
 }
-.timeline__img {
+.eugenics__img {
   max-width: 100%;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
 }
-.timeline-container {
+.eugenics-container {
   width: 100%;
   position: relative;
   padding: 80px 0;
@@ -198,7 +135,7 @@
   background-attachment: fixed;
   background-size: cover;
 }
-.timeline-container:before {
+.eugenics-container:before {
   position: absolute;
   left: 0;
   top: 0;
@@ -207,7 +144,7 @@
   background: rgba(99, 99, 99, 0.8);
   content: "";
 }
-.timeline-header {
+.eugenics-header {
   width: 100%;
   text-align: center;
   margin-bottom: 80px;
@@ -215,7 +152,7 @@
 }
 
 /* Timeline title */
-.timeline-header__title {
+.eugenics-header__title {
   color: #8AC45F; /* Gross greeen (which I love, but is pretty hard to read */
   /*color: #8b0000; */
   font-size: 54px;
@@ -224,7 +161,7 @@
   letter-spacing: 5px;
   margin: 0;
 }
-.timeline-header__subtitle {
+.eugenics-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Reenie Beanie", sans-serif;
   font-size: 16px;
@@ -240,5 +177,5 @@
 .demo-footer a {
   color: #999;
   display: inline-block;
-  font-family: Atkinson;
+  font-family: Helvetica;
 }
