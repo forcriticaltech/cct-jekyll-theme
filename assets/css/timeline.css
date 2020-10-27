@@ -134,9 +134,9 @@
   width: 100%;
   position: absolute;
   color: #8AC45F;
-  font-size: 32px;
+  font-size: 40px;
   font-family: Frightmare, sans-serif;
-  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
   top: 70%;
   margin-top: -5px;
   padding-left: 15px;
