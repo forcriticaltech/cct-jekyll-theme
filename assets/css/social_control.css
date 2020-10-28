@@ -1,3 +1,12 @@
+.social_control {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+
 /* social_control Entry Title */
 .social_control__content-title {
   font-size: 40px;

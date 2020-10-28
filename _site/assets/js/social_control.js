@@ -1,10 +1,10 @@
 (function($) {
-  $.fn.carceral = function() {
+  $.fn.social_control = function() {
     var selectors = {
       id: $(this),
-      item: $(this).find(".carceral-item"),
-      activeClass: "carceral-item--active",
-      img: ".carceral__img"
+      item: $(this).find(".social_control-item"),
+      activeClass: "social_control-item--active",
+      img: ".social_control__img"
     };
     selectors.item.eq(0).addClass(selectors.activeClass);
     selectors.id.css(
@@ -53,4 +53,5 @@
   };
 })(jQuery);
 
-$("#carceral-1").carceral();
+$("#social_control-1").social_control();
+
