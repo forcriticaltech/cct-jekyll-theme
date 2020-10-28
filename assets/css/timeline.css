@@ -63,6 +63,60 @@
   margin: 0;
 }
 
+.submission {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 700px;
+  position: relative;
+      background: rgb(66, 18, 88);
+
+    
+}
+
+.submission:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+}
+/* submission Description */
+.submission__content-desc {
+  margin: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Atkinson";
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.submission-header {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  position: relative;
+}
+
+.submission-container {
+  background: rgb(66, 18, 88);
+}
+
+/* submission title */
+.submission-header__title {
+  text-align: center;
+  color: #8AC45F; /* Gross greeen (which I love, but is pretty hard to read */
+  /*color: #8b0000; */
+  font-size: 54px;
+  font-family: Frightmare;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -238,8 +292,12 @@
   padding: 60px 0;
   text-align: center;
 }
-.demo-footer a {
-  color: #999;
+
+.submission a:link {
+  color: #8AC45F;
   display: inline-block;
   font-family: Atkinson;
+}
+a:hover {
+  color: #b6fc03;
 }
