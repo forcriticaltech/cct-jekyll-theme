@@ -1,9 +1,9 @@
 nav:
-  - title: "What's a #ZombieScience?"
+  - title: "Defining #ZombieScience"
     section: intro
 
-  - title: "Timeline"
+  - title: "#ZombieScience Timeline"
     section: timeline
 
-  - title: "Submit a #ZombieScience for the Timeline"
+  - title: "Submit #ZombieScience"
     section: submission
