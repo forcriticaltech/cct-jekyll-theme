@@ -1,6 +1,9 @@
 nav:
+  - title: "What's a #ZombieScience?"
+    section: intro
+
   - title: "Timeline"
     section: timeline
 
-  - title: "What's a #BiometricsZombie?"
-    section: intro
+  - title: "Submit a #ZombieScience for the Timeline"
+    section: submission
